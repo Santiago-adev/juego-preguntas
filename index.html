@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responde rapido</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="InicioTiempo()">
+    <h2>Responde Rapido</h2>
+    <span id="CuentaRegresiva"></span>
+    <p>1. Cual es la capital de Colombia</p>
+    <input type="text" id="Respuesta1">
+    <p>2. A que de departamento pertenece Villavicencio</p>
+    <input type="text" id="Respuesta2">
+    <p>3. Cuantas departamentos tiene colombia</p>
+    <input type="text" id="Respuesta3">
+    <p>4. Cuantas regiones tiene Colombia</p>
+    <input type="text" id="Respuesta4">
+    <p>5. nombre una de las regiones de Colombia</p>
+    <input type="text" id="Respuesta5">
+    <br><br>
+    <button onclick="Finalizar()">Termine</button>
+    <button onclick="Reseteo()">Volver a intentar</button>
+    <audio src="./audio/Mario_bros_game_over_-_Sound_Efect_[_YouConvert.net_].mp3" id="audioFinal"></audio>
+    <script src="./main.js"></script>
+</body>
+</html>
